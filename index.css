@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('../soloProject/CursedTimerULiL.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 7, 62);
+    height: 100vh;
+    margin-bottom: -40px;
+}
+
+h3 {
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+h2,
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+h2 {
+    color: rgb(204, 19, 19);
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    font-size: 90px;
+}
+
+.Guest,
+.Home {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding: 80px;
+    margin: 10px;
+}
+
+button {
+    font-size: 20px;
+    /* Adjust the font size as needed */
+    border: 5px solid rgba(255, 255, 255, 0.187);
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height as needed */
+    border-color: rgba(244, 238, 238, 0.569);
+    background: transparent;
+    color: rgba(245, 241, 241, 0.458);
+    cursor: pointer;
+}
+
+.onclick {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 60px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Guest,
+    .Home {
+        font-size: 60px;
+        padding: 60px;
+    }
+
+    button {
+        font-size: 16px;
+        width: 80px;
+        height: 80px;
+    }
+}
