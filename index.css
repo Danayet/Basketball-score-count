@@ -1,22 +1,14 @@
-@font-face {
-    font-family: 'Cursed Timer ULiL';
-    src: url('../soloProject/CursedTimerULiL.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 400;
-}
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(7, 7, 62);
     height: 100vh;
-    margin-bottom: -40px;
+        
 }
 
 h3 {
     color: white;
-    font-weight: 500;
     margin: 0;
     text-align: center;
     font-size: 35px;
@@ -33,10 +25,10 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 20px auto;
-    font-size: 90px;
+    font-size: 50px;
 }
 
 .Guest,
@@ -52,7 +44,7 @@ button {
     font-size: 20px;
     /* Adjust the font size as needed */
     border: 5px solid rgba(255, 255, 255, 0.187);
-    width: 100px;
+    width: 80px;
     /* Adjust the width as needed */
     height: 100px;
     /* Adjust the height as needed */
@@ -65,28 +57,28 @@ button {
 .onclick {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-    .container {
-        flex-direction: column;
-    }
-
+@media only screen and (max-width: 480px) {
     h2 {
-        font-size: 60px;
-        width: 150px;
-        height: 150px;
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
     }
 
     .Guest,
     .Home {
-        font-size: 60px;
-        padding: 60px;
+        font-size: 40px;
+        padding: 30px;
+        margin: 5px;
     }
 
     button {
-        font-size: 16px;
-        width: 80px;
-        height: 80px;
+        font-size: 14px;
+        width: 50px;
+        height: 70px;
     }
 }
