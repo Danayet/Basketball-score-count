@@ -60,8 +60,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    /* Adjust the margin-top value as needed */
 }
 
 @media only screen and (max-width: 480px) {
@@ -82,5 +80,22 @@ button {
         font-size: 14px;
         width: 50px;
         height: 70px;
+    }
+
+    button.save-reset {
+        /* Customize the styles for the Save and Reset button in the mobile view */
+        font-size: 16px;
+        width: 120px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .alert-message {
+        /* Customize the styles for the alert message in the mobile view */
+        font-size: 16px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
     }
 }
